@@ -4,7 +4,7 @@
 import crypto from 'crypto';
 
 // Secret salt - CHANGE THIS to your own secret!
-const SECRET = '2026-01-16-09ABC2A008FB052E';
+const SECRET = 'const SECRET = 'polymarket-arb-bot-2026-secret-key';
 
 /**
  * Generate a license key for a given expiry date
