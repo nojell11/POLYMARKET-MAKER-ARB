@@ -1,6 +1,7 @@
 // Main Orchestrator - Polymarket Arbitrage Bot
 // Coordinates all modules: WebSocket → Detector → Orders → Metrics
 
+import 'dotenv/config';  // Load .env file
 import WebSocketMonitor from './websocket/monitor.js';
 import OpportunityDetector from './detector/opportunity.js';
 import OrderManager from './orders/manager.js';
