@@ -1,0 +1,33 @@
+{
+  "name": "polymarket-arb-bot",
+  "version": "1.0.0",
+  "description": "High-frequency arbitrage bot for Polymarket 15-minute binary markets",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/index.js",
+    "test": "node src/test/latency-stress.js",
+    "test:auth": "node src/test/auth-test.js",
+    "test:recovery": "node src/test/error-recovery.js",
+    "latency-check": "node src/utils/latency-test.js"
+  },
+  "keywords": [
+    "polymarket",
+    "arbitrage",
+    "trading",
+    "websocket"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@polymarket/clob-client": "^5.2.0",
+    "@polymarket/order-utils": "^3.0.1",
+    "ethers": "^5.7.2",
+    "node-fetch": "^3.3.2",
+    "ws": "^8.16.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

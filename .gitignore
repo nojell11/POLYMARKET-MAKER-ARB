@@ -1,0 +1,37 @@
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+
+# =============================================
+# TEST & DEBUG FILES - DO NOT PUSH TO GITHUB
+# =============================================
+# Contains credentials or debug-only scripts
+src/test/quick-auth.js
+src/test/latency-test.js
+src/test/mock-logs.js
+src/test/mock-latency.js
+src/test/latency-stress.js
+src/test/error-recovery.js
+
+# Claude folder (internal docs & tools)
+claude/
+
+# Build
+dist/
+build/
